@@ -253,7 +253,7 @@
     </head>
     <body>
         <header>
-            <a href="./home.html"><h1 class="heading"> <span class="green">travel</span><span class="yellow">hub</span><span class="brown">.com</span> </h1></a>
+            <a href="./home.html"><h1 class="heading"> <span class="green">venus</span><span class="yellow">events</span><span class="brown">and</span><span class="green">design</span><span class="green">.com</span> </h1></a>
             
         <div class="search">
             <input type="search" placeholder="Search..."/> 
