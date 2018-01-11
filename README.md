@@ -8,7 +8,7 @@
                 <style>
         
                 * {
-                    font-family: 'Raleway', sans-serif;
+                    font-family: 'Times New Roman';
                     color: #333333;
                 }
                 
