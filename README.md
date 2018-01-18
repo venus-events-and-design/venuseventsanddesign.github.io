@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Welcome to Washington! </title>     
+        <title> Welcome to VED! </title>     
         <link href="css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
                 <style>
         
                 * {
-                    font-family: 'Times New Roman';
+                    font-family: 'Raleway', sans-serif;
                     color: #333333;
                 }
                 
@@ -17,17 +17,17 @@
                 }
                 
                 header {
-                    line-height: 4rem;
+                    line-height: 5rem;
                     padding: 5px;
                 }
                 
                 a {
                     text-decoration: none;
-                    color: #669966;
+                    color: #500B4E;
                 }
                 
                 a:hover {
-                    color: #FFCC00;
+                    color: #2B5E79;
                 }
                 
                 .green {
@@ -88,8 +88,8 @@
                 }
                   
                 .nav a:hover {
-                    color: #FFCC00;
-                    background-color: #669966;
+                    color: #B7BEC6;
+					font-weight: bold;
                  }
                  
                  #hnav {
@@ -150,30 +150,6 @@
                     vertical-align: top;
                 }
                 
-                .list {
-                    font-size: 1.15rem;
-                    padding: 5px;
-                }
-                
-                .padding{
-                        margin: 35px 0px;
-                }
-                
-                h3 {
-                    font-family: 'Playfair Display', serif;
-                }
-                
-                .width {
-                    width: 75%;
-                    margin-left: 0;
-                    padding: 5px;
-                }
-                
-                hr {
-                    margin-left: 0;
-                    width: 75%;
-                    
-                }
                 
                 .search {
                     float: right;
@@ -191,19 +167,12 @@
                     border: 2px solid #333333; /*The validator shows a warning for the border color and background color being the same. But it is the way I want it to be styled so that the button looks good.*/
                 }
                 
-                img {
-                    float: right;
-                    width: 12%;
-                    margin-right: 100px;
-                    max-height: 12%;
-                }
-                
                 .backgroundimage {
-                    background-image: url("../images/wascenery.jpeg");
+                    background-image: url("./images/pic2.jpg");
                     background-repeat: no-repeat;
                     background-size: cover;
                     width: 100%;
-                    height: 400px;
+                    height: 430px;
                     text-align: right;
                     margin-bottom: 10px;
                 }
@@ -213,6 +182,7 @@
                     position: relative;
                     top: 250px;
                     color: white;
+                    background-color: rgb(50,50,55);opacity:0.6;
                 }
                 
                 #content {
@@ -220,6 +190,7 @@
                     position: relative;
                     top: 250px;
                     color: white;
+                    background-color: rgb(50,50,55);opacity:0.6;
                 }
                 
                 footer {
@@ -242,18 +213,37 @@
                 }
                 
                 .footer a:hover {
-                    color: #669966;
+                    color: #B7BEC6;
+					font-weight: bold;
                 }
-                
-                a:hover.linkcolor {
-                    color: #FFCC00;
-                }
-
+				
+				.purple {
+					color: #500B4E;
+				}
+				
+				.dblue {
+					color: #2B5E79;
+				}
+				
+				.lblue {
+					color: #0A7587;
+				}
+				
+				#logo {
+					display: inline-block;
+					float: left;
+					height: 5rem;
+					width: 5rem;
+					vertical-align: middle;
+					margin-right: 1rem;
+				}
         </style>
     </head>
     <body>
         <header>
-            <a href="./home.html"><h1 class="heading"> <span class="green">venus</span><span class="yellow">events</span><span class="brown">and</span><span class="green">design</span><span class="green">.com</span> </h1></a>
+		
+			<img src="./images/logo.png" alt="logo" id="logo"/>
+            <a href="./index.html"><h1 class="heading"> <span class="purple">venus</span><span class="dblue">events</span><span class="purple">and</span><span class="dblue">design</span><span class="brown">.com</span> </h1></a>
             
         <div class="search">
             <input type="search" placeholder="Search..."/> 
@@ -264,19 +254,19 @@
 
         <div class="nav">
         <ul>
-            <li> <a href="./home.html" id="home"> Home </a> </li>
-            <li class="dropdown"> <a href="./statehistory.html"> State History </a> </li>
-            <li> <a href="./stategeography.html"> State Geography </a> </li>
-            <li> <a href="./places.html"> Places </a> </li>
-            <li> <a href="./travelinfo.html"> Travel info </a> </li>
-            <li> <a href="./contactus.html"> Contact us </a> </li>
+            <li> <a href="./index.html" id="home"> Home </a> </li>
+            <li> <a href="./services.html"> Services </a> </li>
+            <li> <a href="./gallery.html"> Gallery </a> </li>
+            <li> <a href="./getaquote.html"> Get A Quote </a> </li>
+            <li> <a href="./aboutus.html"> About Us </a> </li>
+            <li> <a href="./contactus.html"> Contact Us </a> </li>
         </ul>
         </div>
 
         <div class="backgroundimage">
             <div class="middle"> 
-                <div id="heading" class="heading">Welcome to the State of Washington!</div>
-                <div id="content">Looking somewhere to travel? You've come to the right place!</div>
+                <div id="heading" class="heading">Welcome to Venus Events and Design!</div>
+                <div id="content">Looking for a party planner? You've come to the right place!</div>
             </div>
             
         </div>
@@ -285,33 +275,33 @@
             
             <tr>
             <td colspan="2">
-                <div class="mpheading"> Welcome visitors! </div>
+                <div class="mpheading"> Lorem Ipsum. </div>
             </td>
             </tr>
             
             <tr>
             <td class="home">
                 <div class="mpcontent">
-                    <p>If you’re looking for a vacation spot, then you’ve come to the right place. If you still haven’t visited Washington, USA you’re clearly missing on a lot. However, it’s not late yet. Travel to Washington during your next holiday with your loved ones; we bet you’ll have the time of your life. And better yet, our website will give you all the details so browse on.</p>
+                    <p>Welcome to Venus Events and Design! Party planning can be a struggle, but we are here to help. Venus Events and Design is a party and event planning business ready to step in when you need an amazing event that pleases all your guests and assures that everyone has a good time!</p>
                     
-                    <div class="heading"> Why Washington? </div>
-                    <p>A scenic place with amazing landscape, Washington is the place to come if you want to connect with nature. It has a wide variety of trees with animals and birds and a lot of lakes to visit. It is home to the famous Space Needle at Seattle! There are amazing suburbs like Issaquah and Sammamish with a great lot of friendly people and a lot more. So, what are you waiting for? Plan your trip today!</p>
+                    <div class="heading"> Why VED? </div>
+                    <p>Venus Events and Design offers great deals and reasonable prices. We also provide easy-to-contact staff that will make sure all you party planning needs get answered.</p>
         
                 </div>
             </td>
             
             <td class="home">
                 <div class="list">
-                         <p>Here are some places you may have heard of that are exclusive to Washington:</p>
+                         <p>Here are some of the services we provide:</p>
                         <ul>
-                            <li>Olympic National Park and the Hoh Rain Forest</li>
-                            <li>Seattle Center</li>
-                            <li>San Juan Islands</li>
-                            <li>Mount Rainier National Park</li>
-                            <li>Tacoma Museums</li>
-                            <li>Seattle Downtown</li>
-                            <li>Washington State Capitol Building</li>
-                            <li>Port Angeles <a href="./places.html">More...</a></li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum <a href="./services.html">More...</a></li>
                         </ul>
                 </div>
             </td>
@@ -321,10 +311,10 @@
         <div class="whitespace"></div>
         
         <footer class="footer"> 
-            <a href="./home.html">Home</a> | <a href="./statehistory.html" class="linkcolor">State History</a> | <a href="./stategeography.html">State Geography</a> | <a href="./places.html" class="linkcolor">Places</a> | <a href="./travelinfo.html">Travel info</a>  | <a href="./contactus.html" class="linkcolor">Contact us</a>
+            <a href="./index.html">Home</a> | <a href="./services.html">Services</a> | <a href="./gallery.html">Gallery</a> | <a href="./getaquote.html">Get A Quote</a> | <a href="./aboutus.html">About Us</a>  | <a href="./contactus.html">Contact Us</a>
             <br/>
             
-            &copy;2017 travelhub.com by Ananya. All rights reserved.
+            &copy;2018 venuseventsanddesign.com by j.a.c.k. All rights reserved.
         </footer>
         
     </body>
