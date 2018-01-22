@@ -105,7 +105,11 @@
 	    font-family: 'Playfair Display', serif;
 	    font-size: 2rem;
 	}
-
+	
+	.sheading {
+	     font-size: 1.25rem;
+	     font-family: 'Playfair Display', serif;
+	}
 	.content, .mpcontent {
 	    font-size: 1.15rem;
 	}
