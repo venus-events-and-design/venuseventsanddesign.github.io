@@ -205,3 +205,15 @@
 	.content h4 {
 	    text-transform: uppercase;
 	}
+
+	img {
+		height: 20rem;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
