@@ -1,4 +1,4 @@
-* {
+        * {
 	    font-family: 'Raleway', sans-serif;
 	    color: #333333;
 	}
@@ -19,33 +19,6 @@
 
 	a:hover {
 	    color: #2B5E79;
-	}
-
-	.green {
-	    color: #669966;
-	}
-
-	#hgreen, #green {
-	    color: #669966;
-	    font-weight: bold;
-	}
-
-
-	a:hover#green, a:hover#hgreen  {
-	    color: #FFCC00;
-	}
-
-	.yellow {
-	    color: #FFCC00;
-	}
-
-	#hyellow, #yellow {
-	    color: #FFCC00;
-	    font-weight: bold;
-	}
-
-	.brown {
-	    color: #333333;
 	}
 
 	#home {
@@ -80,16 +53,8 @@
 
 	.nav a:hover {
 	    color: #B7BEC6;
-				font-weight: bold;
+	    font-weight: bold;
 	 }
-
-	 #hnav {
-	     background-color: #FFCC00;
-	 }
-
-	#gnav {
-	    background-color: #669966;
-	}
 
 	h1.heading {
 	    display: inline;
@@ -200,7 +165,7 @@
 	}
 
 	.whitespace {
-	    height: 30px;
+	    height: 20rem;
 	}
 
 	.footer a {
