@@ -219,3 +219,7 @@
 		float: right;
 		width: 40%;
 	}
+
+	.img {
+		vertical-align: middle;
+	}
