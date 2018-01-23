@@ -2,6 +2,10 @@
 	    font-family: 'Raleway', sans-serif;
 	    color: #333333;
 	}
+	
+	hr {
+		color: #333333;
+	}
 
 	body {
 	    height: 100%;
