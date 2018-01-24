@@ -1,242 +1,249 @@
-    html, body {
-		height: 100%;
-	}
+html, body {
+	height: 100%;
+}
 
-	* {
-	    font-family: 'Raleway', sans-serif;
-	    color: #333333;
-	}
+* {
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+}
+
+hr {
+	color: #333333;
+}
+
+header {
+	line-height: 5rem;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #500B4E;
+}
+
+a:hover {
+	color: #2B5E79;
+}
+
+#home {
+	font-weight: bold;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+	background-color: #333333;
+	line-height: 3.5rem; 
+	position: sticky;/*This value for position fails validation even though it works fine and is on the w3schools website.*/
+	top: 0;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+	color: white;
+}
+
+.nav a:hover {
+	color: #B7BEC6;
+	font-weight: bold;
+ }
+
+h1.heading {
+	display: inline;
+}
+
+.mheading {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5rem;
+	margin-top: 10px;
+}
+
+.heading, .mpheading {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+}
+
+.sheading {
+	 font-size: 1.25rem;
+	 font-family: 'Playfair Display', serif;
+}
+.content, .mpcontent {
+	font-size: 1.15rem;
+}
+
+.mpcontent {
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+li {
+	margin-bottom: 0.5rem;
+	width: 75%;
+}
+
+.list ul {
+	border-left: 1px solid #333333;
+}
+
+table {
+	width: 100%;
+}
+
+.home {
+	width: 50%;
+	vertical-align: top;
+	padding: 5px;
+}
+
+td {
+	width: 33%;
+	margin: 10px;
+	padding: 5px;
+	vertical-align: top;
+}
+
+
+.search {
+	float: right;
+}
+
+input {
+	border: 1px solid #333333;
+	padding: 10px;
+}
+
+button {
+	background-color: #333333;
+	color: white;
+	padding: 9px;
+	border: 2px solid #333333; /*The validator shows a warning for the border color and background color being the same. But it is the way I want it to be styled so that the button looks good.*/
+}
+
+.backgroundimage {
+	background-image: url("wedding.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+#heading {
+	font-size: 3rem;
+	position: relative;
+	top: 420px;
+	right: 10px;
+	color: white;
+}
+
+#content {
+	font-size: 1.5rem;
+	position: relative;
+	top: 430px;
+	right: 10px;
+	color: white;
+}
+
+footer {
+	background-color: #333333;
+	color: white;
+	font-size: 0.75rem;
+	text-align: center;
+	line-height: 1.5rem;
 	
-	hr {
-		color: #333333;
-	}
+	width: 100%;
+}
 
-	header {
-	    line-height: 5rem;
-	    padding: 5px;
-	}
+.footer {
+	height: 3rem;
+	position: relative;
+	bottom: 0;
+	margin-top: -3rem;
+	clear: both;
+}
 
-	a {
-	    text-decoration: none;
-	    color: #500B4E;
-	}
+.whitespace {
+	height: 20rem;
+}
 
-	a:hover {
-	    color: #2B5E79;
-	}
+.footer a {
+	color: white;
+}
 
-	#home {
-	    font-weight: bold;
-	}
+.footer a:hover {
+	color: #B7BEC6;
+	font-weight: bold;
+}
+			
+.purple {
+	color: #500B4E;
+}
 
-	.nav {
-	    width: 100%;
-	    text-align: center;
-	    background-color: #333333;
-	    line-height: 3.5rem; 
-	    position: sticky;/*This value for position fails validation even though it works fine and is on the w3schools website.*/
-	    top: 0;
-	}
+.dblue {
+	color: #2B5E79;
+}
 
-	.nav ul {
-	    list-style-type: none;
-	    margin: 0;
-	    padding: 0;
-	    overflow: hidden;
-	}
-	.nav li {
-	    display: inline;
-	}
+.lblue {
+	color: #0A7587;
+}
 
-	.nav a {
-	    text-decoration: none;
-	    text-align: center;
-	    padding: 14px 16px;
-	    color: white;
-	}
+#logo {
+	display: inline-block;
+	float: left;
+	height: 5rem;
+	width: 5rem;
+	vertical-align: middle;
+	margin-right: 1rem;
+}
 
-	.nav a:hover {
-	    color: #B7BEC6;
-	    font-weight: bold;
-	 }
+.content h4 {
+	text-transform: uppercase;
+}
 
-	h1.heading {
-	    display: inline;
-	}
+img {
+	height: 25rem;
+}
 
-	.mheading {
-	    font-family: 'Playfair Display', serif;
-	    font-size: 2.5rem;
-	    margin-top: 10px;
-	}
+.left {
+	float: left;
+	width: 60%;
+}
 
-	.heading, .mpheading {
-	    font-family: 'Playfair Display', serif;
-	    font-size: 2rem;
-	}
-	
-	.sheading {
-	     font-size: 1.25rem;
-	     font-family: 'Playfair Display', serif;
-	}
-	.content, .mpcontent {
-	    font-size: 1.15rem;
-	}
+.right {
+	float: right;
+	width: 40%;
+}
 
-	.mpcontent {
-	    padding: 5px;
-	    margin-bottom: 15px;
-	}
+.img {
+	vertical-align: middle;
+	text-align: center;
+	padding: 5rem;
+}
 
-	li {
-	    margin-bottom: 0.5rem;
-	    width: 75%;
-	}
+#width {
+	width: 30rem;
+}
 
-	.list ul {
-	    border-left: 1px solid #333333;
-	}
+.container {
+	min-height: 100%;
+}
 
-	table {
-	    width: 100%;
-	}
+.main {
+	overflow: auto;
+	min-height: 100%;
+	padding-bottom: 3rem;
+}
 
-	.home {
-	    width: 50%;
-	    vertical-align: top;
-	    padding: 5px;
-	}
-
-	td {
-	    width: 33%;
-	    margin: 10px;
-	    padding: 5px;
-	    vertical-align: top;
-	}
-
-
-	.search {
-	    float: right;
-	}
-
-	input {
-	    border: 1px solid #333333;
-	    padding: 10px;
-	}
-
-	button {
-	    background-color: #333333;
-	    color: white;
-	    padding: 9px;
-	    border: 2px solid #333333; /*The validator shows a warning for the border color and background color being the same. But it is the way I want it to be styled so that the button looks good.*/
-	}
-
-	.backgroundimage {
-	    background-image: url("wedding.jpg");
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	    width: 100%;
-	    height: 600px;
-	    text-align: right;
-	    margin-bottom: 10px;
-	}
-
-	#heading {
-	    font-size: 3rem;
-	    position: relative;
-	    top: 420px;
-	    right: 10px;
-	    color: white;
-	}
-
-	#content {
-	    font-size: 1.5rem;
-	    position: relative;
-	    top: 430px;
-	    right: 10px;
-	    color: white;
-	}
-
-	footer {
-	    background-color: #333333;
-	    color: white;
-	    font-size: 0.75rem;
-	    text-align: center;
-	    line-height: 1.5rem;
-		height: 3rem;
-	    position: relative;
-	    bottom: 0;
-	    width: 100%;
-	}
-
-	.whitespace {
-	    height: 20rem;
-	}
-
-	.footer a {
-	    color: white;
-	}
-
-	.footer a:hover {
-	    color: #B7BEC6;
-		font-weight: bold;
-	}
-				
-	.purple {
-		color: #500B4E;
-	}
-
-	.dblue {
-		color: #2B5E79;
-	}
-
-	.lblue {
-		color: #0A7587;
-	}
-
-	#logo {
-		display: inline-block;
-		float: left;
-		height: 5rem;
-		width: 5rem;
-		vertical-align: middle;
-		margin-right: 1rem;
-	}
-
-	.content h4 {
-	    text-transform: uppercase;
-	}
-
-	img {
-		height: 25rem;
-	}
-
-	.left {
-		float: left;
-		width: 60%;
-	}
-
-	.right {
-		float: right;
-		width: 40%;
-	}
-
-	.img {
-		vertical-align: middle;
-		text-align: center;
-		padding: 5rem;
-	}
-
-	#width {
-		width: 30rem;
-	}
-	
-	.container {
-		height: 100%;
-	}
-	
-	.main {
-		min-height: 100%;
-		padding-bottom: 3rem;
-	}
-	
