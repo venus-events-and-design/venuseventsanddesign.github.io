@@ -34,7 +34,7 @@ a:hover {
 	text-align: center;
 	background-color: #333333;
 	line-height: 3.5rem; 
-	position: sticky;/*This value for position fails validation even though it works fine and is on the w3schools website.*/
+	position: sticky; /*This value for position fails validation even though it works fine and is on the w3schools website.*/
 	top: 0;
 }
 
